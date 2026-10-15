@@ -1,0 +1,12 @@
+I-BPSim
+Copyright 2026 Belén Ramos-Gutiérrez and the I-BPSim authors, Universidad de Sevilla.
+
+This product includes software developed at the Universidad de Sevilla
+(Departamento de Lenguajes y Sistemas Informáticos).
+
+If you use this software in academic work, please cite the associated article
+(see README.md).
+
+The file evaluation/distance_metrics.py implements the framework of
+Chapela-Campa et al., Information Systems 127 (2025) 102447, and remains subject
+to the license and authorship indicated in its header.

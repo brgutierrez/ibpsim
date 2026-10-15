@@ -1,0 +1,10 @@
+Metric,Baseline,Planner-only,Planner + intervention,Winning Variant
+absolute_emd,845.88 (104.15),183.86 (95.93),165.43 (110.93),Planner + intervention Log
+absolute_wass,1557.45 (234.49),222.29 (98.57),204.80 (108.76),Planner + intervention Log
+case_arrival_emd,126.08 (61.84),235.87 (65.53),235.87 (65.53),Baseline Log
+case_arrival_wass,129.34 (60.07),237.36 (65.39),237.36 (65.39),Baseline Log
+circadian_emd,5.34 (0.94),2.82 (0.50),2.83 (0.59),Planner-only Log
+circadian_wass,5.61 (0.89),3.63 (0.41),3.70 (0.48),Planner-only Log
+relative_emd,996.74 (103.64),61.26 (61.95),60.43 (60.60),Planner + intervention Log
+relative_wass,1677.44 (236.02),88.86 (59.86),94.38 (56.15),Planner-only Log
+cycle_time_wass,3917.24 (2164.55),134.23 (70.48),135.83 (79.10),Planner-only Log

@@ -1,0 +1,26 @@
+Metric,Comparison,N,Wilcoxon p (raw),"p (Holm, global)",r_rb,Wins A,Wins B
+absolute_emd,Baseline vs Planner + intervention,30,1.862645149230957e-09,4.6566128730773926e-08,-1.0,0,30
+absolute_emd,Planner-only vs Planner + intervention,30,0.0404897220432758,0.242938332259655,-0.4279569892473118,11,19
+absolute_emd,Planner-only vs Baseline,30,1.862645149230957e-09,4.6566128730773926e-08,1.0,30,0
+absolute_wass,Baseline vs Planner + intervention,30,1.862645149230957e-09,4.6566128730773926e-08,-1.0,0,30
+absolute_wass,Planner-only vs Planner + intervention,30,0.0020201820880174,0.0141412746161222,-0.6258064516129033,10,20
+absolute_wass,Planner-only vs Baseline,30,1.862645149230957e-09,4.6566128730773926e-08,1.0,30,0
+case_arrival_emd,Baseline vs Planner + intervention,30,1.6869333328939244e-06,1.855626666183317e-05,1.0,30,0
+case_arrival_emd,Planner-only vs Baseline,30,1.6869333328939244e-06,1.855626666183317e-05,-1.0,0,30
+case_arrival_wass,Baseline vs Planner + intervention,30,1.7202594665136766e-06,1.855626666183317e-05,1.0,30,0
+case_arrival_wass,Planner-only vs Baseline,30,1.7202594665136766e-06,1.855626666183317e-05,-1.0,0,30
+circadian_emd,Baseline vs Planner + intervention,30,1.862645149230957e-09,4.6566128730773926e-08,-1.0,0,30
+circadian_emd,Planner-only vs Planner + intervention,30,0.7456546742469072,1.0,-0.0709677419354838,12,18
+circadian_emd,Planner-only vs Baseline,30,1.862645149230957e-09,4.6566128730773926e-08,1.0,30,0
+circadian_wass,Baseline vs Planner + intervention,30,3.725290298461914e-09,4.842877388000488e-08,-0.9956989247311828,1,29
+circadian_wass,Planner-only vs Planner + intervention,30,0.1094320584088563,0.547160292044282,0.3376344086021505,19,11
+circadian_wass,Planner-only vs Baseline,30,3.725290298461914e-09,4.842877388000488e-08,0.9956989247311828,29,1
+cycle_time_wass,Baseline vs Planner + intervention,30,1.862645149230957e-09,4.6566128730773926e-08,-1.0,0,30
+cycle_time_wass,Planner-only vs Planner + intervention,30,0.5978077705949545,1.0,-0.1139784946236559,10,20
+cycle_time_wass,Planner-only vs Baseline,30,1.862645149230957e-09,4.6566128730773926e-08,1.0,30,0
+relative_emd,Baseline vs Planner + intervention,30,1.862645149230957e-09,4.6566128730773926e-08,-1.0,0,30
+relative_emd,Planner-only vs Planner + intervention,30,0.4521643426269293,1.0,-0.1612903225806451,12,18
+relative_emd,Planner-only vs Baseline,30,1.862645149230957e-09,4.6566128730773926e-08,1.0,30,0
+relative_wass,Baseline vs Planner + intervention,30,1.862645149230957e-09,4.6566128730773926e-08,-1.0,0,30
+relative_wass,Planner-only vs Planner + intervention,30,0.177192710340023,0.7087708413600922,0.2860215053763441,16,14
+relative_wass,Planner-only vs Baseline,30,1.862645149230957e-09,4.6566128730773926e-08,1.0,30,0

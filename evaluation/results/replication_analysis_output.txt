@@ -1,0 +1,16 @@
+Replicates: 30 | family of tests: 25
+Significant with all replicates (Holm, alpha=0.05): 19 (18 against the baseline, 1 between the proposed variants)
+  proposed-vs-proposed: absolute_wass: Planner-only vs Planner+intervention
+
+(A) Resampling analysis: 300 random subsets per size, seed=1
+  n=10: each baseline comparison significant in at least 100% of subsets (minimum over the 18 comparisons); absolute_wass: Planner-only vs Planner+intervention in 4%
+  n=15: each baseline comparison significant in at least 100% of subsets (minimum over the 18 comparisons); absolute_wass: Planner-only vs Planner+intervention in 13%
+  n=20: each baseline comparison significant in at least 100% of subsets (minimum over the 18 comparisons); absolute_wass: Planner-only vs Planner+intervention in 29%
+  n=25: each baseline comparison significant in at least 100% of subsets (minimum over the 18 comparisons); absolute_wass: Planner-only vs Planner+intervention in 61%
+  results written to results/resampling_results.csv
+
+(B) Robustness checks
+  excluding replicate 1 (n=29): 18/18 comparisons against the baseline significant; lost vs full set: none
+  non-overlapping windows, replicates 1,4,7,... (n=10): 18/18 comparisons against the baseline significant; lost vs full set: ['absolute_wass: Planner-only vs Planner+intervention']
+  non-overlapping windows, replicates 2,5,8,... (n=10): 18/18 comparisons against the baseline significant; lost vs full set: ['absolute_wass: Planner-only vs Planner+intervention']
+  non-overlapping windows, replicates 3,6,9,... (n=10): 18/18 comparisons against the baseline significant; lost vs full set: ['absolute_wass: Planner-only vs Planner+intervention']
